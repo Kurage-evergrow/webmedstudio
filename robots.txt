@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tokushoho.html
+
+Sitemap: https://kurage-evergrow.github.io/webmedstudio/sitemap.xml
