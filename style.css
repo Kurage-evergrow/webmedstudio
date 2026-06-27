@@ -155,7 +155,7 @@ button {
 }
 
 .hero-bg {
-  background-image: url("assets/hero-clinic-nature.png");
+  background-image: url("assets/hero-clinic-nature.jpg");
   background-size: cover;
   background-position: center right;
   transform: scale(1.01);
@@ -830,7 +830,7 @@ details p {
   padding: clamp(74px, 9vw, 116px) 0;
   background:
     linear-gradient(135deg, rgba(45, 122, 79, 0.94), rgba(67, 142, 91, 0.88)),
-    url("assets/hero-clinic-nature.png") center / cover;
+    url("assets/hero-clinic-nature.jpg") center / cover;
   color: #fff;
 }
 
