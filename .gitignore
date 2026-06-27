@@ -1,6 +1,10 @@
 # 内部メモ・計画ドキュメント（公開しない）
 要件定義.md
 ClaudeCode比較用_制作情報.md
+LINE運用メモ.md
+
+# LINE用ブランド素材（サイトには不要・公開しない）
+assets/brand/
 
 # OS / 作業ファイル
 .DS_Store
