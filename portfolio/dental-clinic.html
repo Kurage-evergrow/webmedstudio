@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <title>制作サンプル | 上品で親しみやすい歯科医院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio-motion.js" defer></script>
+</head>
+<body class="theme-premium" style="--hero-image: url('../assets/portfolio/dental-clinic.png');">
+  <header class="sample-header">
+    <a class="sample-logo" href="../index.html#portfolio">WebMedStudio Portfolio</a>
+    <a class="back-link" href="../index.html#portfolio">一覧へ戻る</a>
+  </header>
+  <main>
+    <section class="sample-hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Hotel-like Dental</p>
+        <h1>歯科医院を、<br>上質な相談体験へ。</h1>
+        <p class="lead">審美歯科・矯正・予防歯科向け。<br>ホテルのラウンジのような余白と質感で、<br>高単価メニューにも説得力を持たせる作風です。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#">初診予約</a>
+          <a class="button button-secondary" href="#">診療メニュー</a>
+        </div>
+      </div>
+    </section>
+    <section class="section premium-intro">
+      <div class="container editorial-split">
+        <div>
+          <p class="eyebrow">Positioning</p>
+          <h2>価格ではなく、体験価値で選ばれる審美歯科へ。</h2>
+        </div>
+        <p>審美・矯正・インプラントは、患者さんが「ここなら丁寧に相談できそう」と感じることが重要です。症例の見せ方、カウンセリング導線、支払いへの不安解消まで、高単価診療に合わせて設計します。</p>
+      </div>
+    </section>
+    <section class="section dental-concerns motion-reveal" data-choice-group>
+      <div class="container concern-layout">
+        <div class="concern-rail">
+          <p class="eyebrow">Counseling Selector</p>
+          <h2>不安を選ぶと、相談内容が変わる。</h2>
+          <p>自由診療では、患者さんごとに心配していることが違います。ボタンで不安を選ぶと、カウンセリングで伝えるべき内容が切り替わる構成です。</p>
+        </div>
+        <div class="concern-card">
+          <div class="choice-buttons choice-buttons-inline" role="tablist" aria-label="相談したい不安">
+            <button type="button" class="is-active" data-choice-button data-title="費用が不安" data-body="総額、分割、保証、メンテナンスまで含めて説明し、金額だけで比較されない状態を作ります。" data-points="総額の目安|分割払いの案内|保証とメンテナンス">費用</button>
+            <button type="button" data-choice-button data-title="痛みが不安" data-body="麻酔、治療時間、術後の注意点を先に見せ、相談前の緊張をやわらげます。" data-points="麻酔の説明|治療時間の目安|術後ケア">痛み</button>
+            <button type="button" data-choice-button data-title="仕上がりが不安" data-body="症例写真、色合わせ、治療計画の比較を見せて、納得して選べる状態を目指します。" data-points="症例の見せ方|色・形の相談|複数プラン比較">仕上がり</button>
+          </div>
+          <article class="choice-panel" data-choice-panel aria-live="polite">
+            <span data-choice-kicker>Private Counseling</span>
+            <h3 data-choice-title>費用が不安</h3>
+            <p data-choice-body>総額、分割、保証、メンテナンスまで含めて説明し、金額だけで比較されない状態を作ります。</p>
+            <ul data-choice-list>
+              <li>総額の目安</li>
+              <li>分割払いの案内</li>
+              <li>保証とメンテナンス</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section dental-editorial">
+      <div class="container editorial-layout">
+        <div class="editorial-copy">
+          <p class="eyebrow">Brand Story</p>
+          <h2>“治療を選ぶ”前に、医院の美意識を感じてもらう。</h2>
+          <p>審美歯科では、メニュー一覧より先に「この医院に相談したい」と思える空気づくりが大切です。大きな余白、静かなコピー、症例への導線を組み合わせ、自由診療の納得感を高めます。</p>
+        </div>
+        <div class="editorial-panel">
+          <span>Private Counseling</span>
+          <strong>45 min</strong>
+          <p>悩み・予算・治療期間を個室で相談。無理な提案ではなく、選べる治療計画へ。</p>
+        </div>
+      </div>
+      <div class="container smile-gallery" aria-label="審美歯科の訴求例">
+        <article><span>Scene 01</span><h3>初回相談</h3><p>悩みを言語化する導線</p></article>
+        <article><span>Scene 02</span><h3>症例紹介</h3><p>写真と注意書きを丁寧に配置</p></article>
+        <article><span>Scene 03</span><h3>費用説明</h3><p>分割・保証・期間を一緒に提示</p></article>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container treatment-showcase">
+        <article>
+          <span>01</span>
+          <h3>ホワイトニング</h3>
+          <p>写真映えする白さだけでなく、しみやすさ・通院回数・後戻りまで丁寧に説明。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>マウスピース矯正</h3>
+          <p>適応条件、費用感、治療期間を整理し、無料相談への心理的ハードルを下げます。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>セラミック治療</h3>
+          <p>素材・色合わせ・保証制度の違いを視覚的に伝え、納得して選べる構成に。</p>
+        </article>
+      </div>
+    </section>
+    <section class="section premium-journey">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Counseling Journey</p>
+          <h2>相談予約までの不安を一つずつほどく</h2>
+        </div>
+        <div class="journey-line">
+          <article><span>Reserve</span><h3>無料相談予約</h3><p>LINE・WEBフォームから希望日時を送信。</p></article>
+          <article><span>Listen</span><h3>悩みのヒアリング</h3><p>見た目、期間、予算、痛みへの不安を確認。</p></article>
+          <article><span>Plan</span><h3>治療計画の提案</h3><p>複数プランと費用を比較できる形で説明。</p></article>
+          <article><span>Follow</span><h3>治療後フォロー</h3><p>保証・メンテナンスで長期的な安心を提示。</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section compact-section">
+      <div class="container price-teaser">
+        <div>
+          <p class="eyebrow">Menu Sample</p>
+          <h2>自由診療の費用を上品に見せる</h2>
+          <p>金額だけを大きく出すのではなく、相談しやすい説明とセットで掲載します。</p>
+        </div>
+        <div class="menu-list">
+          <div><span>Office whitening</span><strong>33,000円〜</strong></div>
+          <div><span>Clear aligner</span><strong>385,000円〜</strong></div>
+          <div><span>Ceramic crown</span><strong>99,000円〜</strong></div>
+        </div>
+      </div>
+    </section>
+    <section class="section outcome-section outcome-dental">
+      <div class="container outcome-layout">
+        <div class="outcome-copy">
+          <p class="eyebrow">Expected Outcome</p>
+          <h2>この構成で狙える成果</h2>
+          <p>自由診療を押し売りに見せず、患者さんが納得して相談予約に進める状態を作ります。価格、期間、痛み、仕上がりへの不安を一つずつほどき、医院の品位と相談しやすさを両立します。</p>
+        </div>
+        <div class="outcome-board">
+          <article><span>01</span><h3>相談予約の心理的ハードルを下げる</h3><p>いきなり契約ではなく、無料相談やカウンセリングへ自然に進める導線を設計します。</p></article>
+          <article><span>02</span><h3>費用への不安を整理する</h3><p>金額だけで比較されないよう、治療の目的、選択肢、保証やメンテナンスまで含めて見せます。</p></article>
+          <article><span>03</span><h3>医院らしい上質感を伝える</h3><p>過度に高級に見せすぎず、清潔感とやさしさのあるデザインで信頼を育てます。</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container case-note">
+        <div><p class="eyebrow">Recommended For</p><h2>向いている案件</h2></div>
+        <div>
+          <p>歯科医院、矯正歯科、予防歯科、審美歯科、ファミリー向け医院に向いています。</p>
+          <ul class="tone-list"><li>清潔</li><li>上品</li><li>親しみ</li><li>初診予約</li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="sample-footer"><div class="container"><span>WebMedStudio sample</span><a href="../index.html#portfolio">Portfolio index</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <title>制作サンプル | 信頼感重視の内科クリニック</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio-motion.js" defer></script>
+</head>
+<body class="theme-clinical" style="--hero-image: url('../assets/portfolio/internal-clinic.png');">
+  <header class="sample-header">
+    <a class="sample-logo" href="../index.html#portfolio">WebMedStudio Portfolio</a>
+    <a class="back-link" href="../index.html#portfolio">一覧へ戻る</a>
+  </header>
+  <main>
+    <section class="sample-hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Public Trust Clinic</p>
+        <h1>情報が整理された、<br>信頼できる<br>地域医療の入口。</h1>
+        <p class="lead">内科・小児科・地域クリニック向け。<br>診療時間、予約、アクセス、<br>受診前の注意事項をわかりやすく整理する堅実な作風です。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#">WEB予約</a>
+          <a class="button button-secondary" href="#">受診前に確認する</a>
+        </div>
+      </div>
+    </section>
+    <section class="alert-strip" aria-label="重要なお知らせ">
+      <div class="container alert-inner">
+        <strong>本日の診療状況</strong>
+        <span>発熱症状のある方は来院前にお電話ください。午前診療のWEB受付は11:30までです。</span>
+        <a href="#">診療カレンダー</a>
+      </div>
+    </section>
+    <section class="section clinical-navigator motion-reveal" data-choice-group>
+      <div class="container navigator-layout">
+        <div class="navigator-copy">
+          <p class="eyebrow">Reception Navigator</p>
+          <h2>患者さんの状況に合わせて、必要情報だけを出す。</h2>
+          <p>クリニックサイトでは、全員に同じ説明を読ませるよりも「自分はどうすればいいか」がすぐ分かる設計が喜ばれます。受付前の迷いを減らすデモです。</p>
+        </div>
+        <div class="choice-workspace">
+          <div class="choice-buttons" role="tablist" aria-label="受診目的">
+            <button type="button" class="is-active" data-choice-button data-title="発熱・咳がある方" data-body="来院前の電話確認、受付時間、持ち物をまとめて表示。感染対策の案内もここに集約します。" data-points="来院前に電話確認|受付締切を明記|保険証・お薬手帳を準備">発熱・咳</button>
+            <button type="button" data-choice-button data-title="生活習慣病の相談" data-body="定期受診、検査結果、薬の相談を一つの導線に整理。再診予約やオンライン相談にもつなげます。" data-points="検査結果を持参|再診予約へ誘導|継続フォローを説明">生活習慣病</button>
+            <button type="button" data-choice-button data-title="健診・予防接種" data-body="対象者、予約可否、料金目安を先に見せ、電話確認の前に判断できる状態を作ります。" data-points="対象年齢を確認|予約枠を案内|費用と所要時間を明記">健診・予防接種</button>
+          </div>
+          <article class="choice-panel" data-choice-panel aria-live="polite">
+            <span data-choice-kicker>Selected Route</span>
+            <h3 data-choice-title>発熱・咳がある方</h3>
+            <p data-choice-body>来院前の電話確認、受付時間、持ち物をまとめて表示。感染対策の案内もここに集約します。</p>
+            <ul data-choice-list>
+              <li>来院前に電話確認</li>
+              <li>受付締切を明記</li>
+              <li>保険証・お薬手帳を準備</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section compact-section">
+      <div class="container clinic-dashboard">
+        <article class="dashboard-card">
+          <span>診療時間</span>
+          <strong>9:00-12:30 / 15:00-18:30</strong>
+          <p>木曜午後・土曜午後・日祝休診</p>
+        </article>
+        <article class="dashboard-card">
+          <span>予約方法</span>
+          <strong>WEB予約・電話受付</strong>
+          <p>初診の方もWEBから受付できます</p>
+        </article>
+        <article class="dashboard-card">
+          <span>アクセス</span>
+          <strong>青葉台駅 徒歩4分</strong>
+          <p>提携駐車場あり・バリアフリー対応</p>
+        </article>
+      </div>
+    </section>
+    <section class="section clinical-portal">
+      <div class="container portal-layout">
+        <div class="portal-main">
+          <p class="eyebrow">Clinic Portal</p>
+          <h2>患者さんが必要な情報へ、迷わずたどり着ける設計。</h2>
+          <p>地域クリニックでは、印象的な装飾よりも「今日診てもらえるか」「何を持っていけばいいか」「どこから予約するか」が重要です。トップページを受付窓口のように整理します。</p>
+          <div class="portal-actions">
+            <a href="#">初診の方へ</a>
+            <a href="#">発熱外来</a>
+            <a href="#">健診・予防接種</a>
+          </div>
+        </div>
+        <aside class="portal-news" aria-label="重要情報">
+          <h3>重要情報</h3>
+          <dl>
+            <div><dt>受付</dt><dd>午前 11:30 / 午後 18:00 まで</dd></div>
+            <div><dt>発熱</dt><dd>来院前に電話確認をお願いします</dd></div>
+            <div><dt>持ち物</dt><dd>保険証・医療証・お薬手帳</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+    <section class="section muted-section">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">First Visit</p>
+          <h2>初めての方が迷わない受診導線</h2>
+          <p class="lead-small">「何を持っていけばいいか」「予約が必要か」「子どもも診てもらえるか」。来院前の不安を先回りして整理することで、電話対応の負担も下げます。</p>
+        </div>
+        <div class="step-list">
+          <article><span>01</span><h3>症状を選ぶ</h3><p>発熱、咳、腹痛、生活習慣病など、受診目的ごとに必要情報へ案内します。</p></article>
+          <article><span>02</span><h3>予約・問診</h3><p>WEB予約、電話、事前問診の導線を並べ、患者さんの行動を簡単にします。</p></article>
+          <article><span>03</span><h3>来院</h3><p>持ち物、受付場所、感染対策、支払い方法を明記して安心感を高めます。</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container info-board">
+        <div class="section-head">
+          <p class="eyebrow">Medical Menu</p>
+          <h2>よく見られる診療情報を整理</h2>
+        </div>
+        <div class="info-grid">
+          <a href="#"><strong>一般内科</strong><span>風邪・発熱・腹痛・頭痛</span></a>
+          <a href="#"><strong>生活習慣病</strong><span>高血圧・糖尿病・脂質異常症</span></a>
+          <a href="#"><strong>小児診療</strong><span>発熱・咳・鼻水・予防接種</span></a>
+          <a href="#"><strong>健康診断</strong><span>雇用時健診・特定健診</span></a>
+          <a href="#"><strong>予防接種</strong><span>インフルエンザ・帯状疱疹</span></a>
+          <a href="#"><strong>オンライン相談</strong><span>再診・慢性疾患フォロー</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="section compact-section">
+      <div class="container schedule-panel">
+        <div>
+          <p class="eyebrow">Hours</p>
+          <h2>診療時間</h2>
+          <p>スマホでも見やすい表にして、休診日・受付時間・予約可否を明確にします。</p>
+        </div>
+        <table class="hours-table">
+          <thead><tr><th>時間</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr></thead>
+          <tbody>
+            <tr><th>9:00-12:30</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td></tr>
+            <tr><th>15:00-18:30</th><td>●</td><td>●</td><td>●</td><td>休</td><td>●</td><td>休</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section outcome-section outcome-clinical">
+      <div class="container outcome-layout">
+        <div class="outcome-copy">
+          <p class="eyebrow">Expected Outcome</p>
+          <h2>この構成で狙える成果</h2>
+          <p>患者さんが来院前に知りたいことを先回りして整理し、受付や電話対応の負担を少しずつ減らしていく設計です。医院側の丁寧さが伝わり、初診でも安心して動ける状態を目指します。</p>
+        </div>
+        <div class="outcome-board">
+          <article><span>01</span><h3>問い合わせの迷いを減らす</h3><p>症状別案内、持ち物、予約方法を明確にして、同じ質問が繰り返されにくい状態を作ります。</p></article>
+          <article><span>02</span><h3>初診の不安を和らげる</h3><p>受診の流れや診療範囲を見せることで、患者さんが「ここに相談してよさそう」と判断しやすくなります。</p></article>
+          <article><span>03</span><h3>地域の信頼を積み上げる</h3><p>派手さよりも誠実さを重視し、家族で利用しやすい地域クリニックとして印象を整えます。</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container case-note">
+        <div><p class="eyebrow">Recommended For</p><h2>向いている案件</h2></div>
+        <div>
+          <p>内科、発熱外来、小児科、地域密着クリニック、開業前の医院サイトに向いています。</p>
+          <ul class="tone-list"><li>誠実</li><li>清潔</li><li>迷わない導線</li><li>地域密着</li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="sample-footer"><div class="container"><span>WebMedStudio sample</span><a href="../index.html#portfolio">Portfolio index</a></div></footer>
+</body>
+</html>
